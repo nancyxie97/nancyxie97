@@ -59,7 +59,7 @@ ul{
   padding-top: 5% !important;
   padding: 0 2%;
   position: absolute;
-  width: 65%;
+  width: 55%;
   height: 75%;
   right: 1%;
   display: flex;
@@ -67,7 +67,7 @@ ul{
   overflow-y: auto;
 }
 h1{
-  font-size: 4vmin;
+  font-size: 3.5vmin;
   
 }
 p{
@@ -113,14 +113,18 @@ p{
   color:white;
 }
 .project-page p{
-  font-size: 25px !important;
+  font-size: 15px !important;
 }
 .project-page h2{
-  font-size: 40px !important;
+  font-size: 21px !important;
   line-height: .5;
 }
 .project-page h3{
-  font-size: 30px !important;
+  font-size: 17px !important;
+  
+}
+.project-page h4{
+  font-size: 15px !important;
   
 }
 .group{

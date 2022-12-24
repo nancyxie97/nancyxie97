@@ -56,18 +56,18 @@ const Sandbox = () => {
   });
   setDynamicTabs(dynamicArr);
   }
-
+  const iconSize = 30;
   return (
     
     <div className="sandbox">
       <div className="wrapper">
         <ul className="nav">
           
-          {dynamicTabs?.map(item => <li key={item.id} className={activeTab === item.id ? "active" : ""}><div className="tab-name" onClick={() => setActiveTab(item.id)} >{item.tabName}</div> <MdOutlineClose onClick={() => deleteTabs(item.id)} className='icon' size={30} style={{color: '#fff'}}/></li>)}
+          {dynamicTabs?.map(item => <li key={item.id} className={activeTab === item.id ? "active" : ""}><div className="tab-name" onClick={() => setActiveTab(item.id)} >{item.tabName}</div> <MdOutlineClose onClick={() => deleteTabs(item.id)} className='icon' size={15} style={{color: '#fff'}}/></li>)}
           {/* <li className={activeTab === "tab1" ? "active" : ""}><div className="tab-name" onClick={() => setActiveTab('tab1')} >AgGrid</div> <MdOutlineClose className='icon' size={30} style={{color: '#fff'}}/></li>
           <li className={activeTab === "tab2" ? "active" : ""}><div className="tab-name" onClick={() => setActiveTab('tab2')} >Other</div> <MdOutlineClose className='icon' size={30} style={{color: '#fff'}}/></li> */}
-          {addTab ? <li className='new-tab' key="1" onChange={handleChange} onKeyDown={handleKeyDown}><input type="text" value={name} name="name" /><MdOutlineClose className='icon' size={30} style={{color: '#fff'}}/></li> : null}
-          <li className="addition-tab" onClick={settingTab}><AiOutlinePlus className='icon' size={50} style={{color: '#fff'}}/></li>
+          {addTab ? <li className='new-tab' key="1" onChange={handleChange} onKeyDown={handleKeyDown}><input type="text" value={name} name="name" /><MdOutlineClose className='icon' size={iconSize} style={{color: '#fff'}}/></li> : null}
+          <li className="addition-tab" onClick={settingTab}><AiOutlinePlus className='icon' size={30} style={{color: '#fff'}}/></li>
         
         
         </ul>

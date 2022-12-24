@@ -1,6 +1,6 @@
 .nav{
     
-    font-size: 2vmin;
+    font-size: 1.5vmin;
     width:100%;
 }
 .wrapper{
@@ -23,7 +23,7 @@ ul.nav {
   }
   ul.nav li {
     width: 50%;
-    padding: 1rem;
+    padding: .75rem;
     list-style: none;
     text-align: center;
     cursor: pointer;
@@ -43,8 +43,8 @@ ul.nav {
     background: #39A2DB;
   }
   .sandbox{
-      width:75%;
-      height:60%;
+      width:85%;
+      height:75%;
       /* padding-top: 50px; */
       color:white;
       background: #333232;
@@ -54,7 +54,7 @@ ul.nav {
     height:100%;
   }
   .ag-grid-sandbox{
-      font-size: 20px;
+      font-size: 15px;
       
   }
    .pinkTopRow{
@@ -66,7 +66,7 @@ ul.nav {
   button{
       width: 3vw;
       height: 2vh;
-      font-size: 20px;
+      font-size: 10px;
   }
   .addition-tab{
       width:7% !important; 
@@ -80,7 +80,7 @@ ul.nav {
       width:90%;
   }
   input{
-      font-size: 28px;
+      font-size: 18px;
       background: transparent;
     border: none;
     color:white;

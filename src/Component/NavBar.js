@@ -31,6 +31,7 @@ const NavBars = () => {
       },[]);
     
     window.addEventListener('resize', changeWindowSize);
+    const iconSize = 25;
   return (
     <div className='header'>
         <div className='title-line'>
@@ -61,10 +62,10 @@ const NavBars = () => {
             
         </ul>
         {windowSize ?<div className='icon-links'>
-        <a href='https://www.instagram.com/madebynanxy/'><GrInstagram className='icon' size={50} style={{color: '#fff'}}/></a>
-        <a href='https://www.linkedin.com/in/nancy-xie/'><FaLinkedinIn className='icon' size={50} style={{color: '#fff'}}/></a>
-        <a href='https://github.com/nancyxie97'><FaGithub className='icon' size={50} style={{color: '#fff'}}/></a>
-        <a href='mailto:nancyxie97@gmail.com'> <MdOutlineEmail className='icon' size={50} style={{color: '#fff'}}/></a>
+        <a href='https://www.instagram.com/madebynanxy/'><GrInstagram className='icon' size={iconSize} style={{color: '#fff'}}/></a>
+        <a href='https://www.linkedin.com/in/nancy-xie/'><FaLinkedinIn className='icon' size={iconSize} style={{color: '#fff'}}/></a>
+        <a href='https://github.com/nancyxie97'><FaGithub className='icon' size={iconSize} style={{color: '#fff'}}/></a>
+        <a href='mailto:nancyxie97@gmail.com'> <MdOutlineEmail className='icon' size={iconSize} style={{color: '#fff'}}/></a>
         </div>:''}
         </div>
         

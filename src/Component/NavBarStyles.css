@@ -29,7 +29,7 @@
 .nav-menu{
     display:flex;
     flex-direction: column;
-    padding: 10rem 0;
+    padding: 5rem 0;
     /* padding-top: 10rem;
     padding-bottom: 10rem; */
 }
@@ -52,7 +52,7 @@
 
 .nav-menu li{
     padding: 0 1rem;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .nav-menu li a{
@@ -67,6 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3rem 0px;
     /* padding: 0px 20px; */
 }
 .icon{

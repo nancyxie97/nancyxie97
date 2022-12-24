@@ -13,10 +13,10 @@ import { Color } from 'ag-grid-community';
     const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita';
     // Each Column Definition results in one Column.
     const [columnDefs, setColumnDefs] = useState([
-     {field: 'strDrink',headerName: 'Name', width: 500},
+     {field: 'strDrink',headerName: 'Name', width: 100},
      {field: 'strCategory',headerName: 'Category'},
-     {field: 'strInstructions',headerName: 'Instructions', width: 500},
-     {field: 'strInstructionsIT',headerName: 'Italian Instructions', width: 500,editiable: true},
+     {field: 'strInstructions',headerName: 'Instructions', width: 100},
+     {field: 'strInstructionsIT',headerName: 'Italian Instructions', width: 100,editiable: true},
 
     ]);
    
@@ -57,7 +57,7 @@ import { Color } from 'ag-grid-community';
     }];
     
   return (
-    <div className='ag-grid-sandbox-container' style={{flexDirection:'column', width: '100%', height: '100%', alignItems: 'center', display: 'flex'}}>
+    <div className='ag-grid-sandbox-container' style={{fontSize:'2px',flexDirection:'column', width: '100%', height: '100%', alignItems: 'center', display: 'flex'}}>
 
     
 
