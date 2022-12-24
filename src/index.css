@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans:ital,wght@1,500;1,700&display=swap');
+#root{
+  padding: 50px;}
+body {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  
+}
+
+code {
+  font-family: 'Arvo', serif;
+  
+}
+body{
+  background: #212121;
+
+}
+h1,h4,p,a{
+  color:white;
+  text-decoration: none;
+
+  
+}
+ul{
+
+  list-style-type: none;
+}
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  /* background: rgba(255, 255, 255, 0.2); */
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+.home-page{
+  width:100%;
+  height:100%;
+
+}
+.page-contents{
+  padding-top: 5% !important;
+  padding: 0 2%;
+  position: absolute;
+  width: 65%;
+  height: 75%;
+  right: 1%;
+  display: flex;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+h1{
+  font-size: 4vmin;
+  
+}
+p{
+  font-size: 2.5vmin;
+  
+}
+.paragraph-section{
+  width: 70%;
+  text-align: center;
+  align-items: center;
+  display:contents;
+  padding-left: 15%;
+  
+
+}
+.image-wrapper{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.about-memoji{
+    width:15%;
+    height:15%;}
+.about-header{
+  right:20px;
+  width: 100%;
+  flex-direction: column;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  line-height: .2;
+  
+
+  
+}
+.about-page{
+  width:100%;
+  align-items: center;
+ 
+}
+.project-page h1, h2,h3, h4{
+  color:white;
+}
+.project-page p{
+  font-size: 25px !important;
+}
+.project-page h2{
+  font-size: 40px !important;
+  line-height: .5;
+}
+.project-page h3{
+  font-size: 30px !important;
+  
+}
+.group{
+  display: flex;
+  justify-content: space-between;
+}
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background: #212121;
+}
+
+@media screen and (max-width: 1040px){
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    /* overflow-y: auto; */
+}
+body{
+  overflow-y: auto;
+}
+.project-page h1{
+  font-size: 17px !important;
+}
+.project-page p{
+  font-size: 7px !important;
+}
+.project-page h2{
+  font-size: 13px !important;
+  line-height: .5;
+}
+.project-page h3{
+  font-size: 10px !important;
+  
+}
+.project-page h4{
+  font-size: 10px !important;
+  
+}
+  .page-contents{
+    bottom:0;
+    right:auto;
+    position: inherit;
+    align-items: center;
+    width: 100%;
+    overflow-y: visbile;
+    
+  }
+  #root{
+    padding: 25px 25px 0px 25px;
+  }
+  .about-page{
+    height:65vh;
+  }
+
+
+}

@@ -1,0 +1,138 @@
+.header{
+    padding:50px;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    display: block;
+    top: 0;
+    text-align: right;
+    left: 0;
+    padding-top: 5rem;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: clip;
+    padding-left: 200px;
+    
+    
+
+
+}
+.header h1{
+    font-size: 8vmin;
+    
+}
+.header-bg{
+    background-color: black;
+    transition: .5s;
+}
+
+.nav-menu{
+    display:flex;
+    flex-direction: column;
+    padding: 10rem 0;
+    /* padding-top: 10rem;
+    padding-bottom: 10rem; */
+}
+
+.name-plate{
+    text-indent: 0px;
+    line-height: 0.1;
+    
+    
+}
+.name-plate a {
+    text-decoration: none;
+}
+.name-plate p{
+    margin:0;
+    font-size: 1vw;
+    
+
+}
+
+.nav-menu li{
+    padding: 0 1rem;
+    font-size: 50px;
+}
+
+.nav-menu li a{
+    font-size: 3vmin;
+    line-height: 0.5;
+}
+.hamburger{
+    display:none;
+}
+.icon-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 20px; */
+}
+.icon{
+    padding: 0px 20px;
+}
+@media screen and (max-width: 1040px){
+    .title-line{
+        display: flex;
+        align-items: center;
+    }
+    .name-plate{
+        width:100%;
+    }
+    .header{
+        width:100%;
+        height:20%;
+        align-items: center;
+        display:block;
+        position:relative;
+        /* background-color: blue; */
+        text-align: center;
+        align-items: center;
+        padding:0px !important;
+    }
+    .nav-menu{
+        width: 100%;
+        padding: 0px !important;
+        transition: display 0.3s;
+        visibility: hidden;
+        opacity: 0;
+        transition: height 1s visibility 0s, opacity 2s linear;
+        height: 0px;
+        /* transform:translate(9999px); */
+        
+        /* -webkit-transition: height 1s linear; */
+        /* height: 0px; */
+        /* //transition: .08s; */
+    }
+    .nav-menu.active{
+        transition: 0.3s;
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+        display:flex;
+        align-items: center;
+        transition: height 1s visibility 0s, opacity 2s linear;
+        /* -webkit-transition: height 1s linear; */
+        /* transform:translate(0); */
+        right:0;
+    }
+    .nav-menu li{
+        padding: 0px ;
+        font-size: 1rem;
+    
+    } 
+    .nav-menu li a{
+        font-size: 1rem;
+    
+    }
+    .nav-menu ul{
+        padding:0px;
+    
+    }
+    .hamburger{
+        display:initial;
+    }
+    
+
+}

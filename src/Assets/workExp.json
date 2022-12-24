@@ -1,0 +1,41 @@
+{
+    "education":{
+        "school name": "University of Texas at Dallas",
+        "duration": "2015-2019",
+        "gpa": "3.75",
+        "degree":"Bachelors of Science - Computer Science"
+    },
+    "work":
+        [
+            {
+                "company": "ExodusPoint Capital Managment",
+                "role" : "Trading UI Engineer",
+                "duration" : "Jan 2022 - Nov 2022",
+                "techStack" : ["React", "Grails", "Java"],
+                "description" : "I worked on the Trading Technology team as a Trading UI Engineer. My responsibility was to create new components and support all the trading platforms within firm. I specifically worked on a couple large projects which I spearheaded from start to finish. Some of the most notable projects I worked on were revamping/refactoring new order ticket and creation of a brand new app support alerts page"
+                
+                
+            },
+            {
+                "company": "Charles Schwab",
+                "role" : "Software Engineer",
+                "duration" : "Aug 2018 - Dec 2021",
+                "techStack" : ["C#", "PowerShell", "SQL", "Angular", "Python", "Java"],
+                "description" : "This was a continuation of my internship. However, during my fulltime role, I did more development on our OCR engine by adding specific customization based on our document classification. I also took on the responsibility of a performance engineer which lead to the responsibility of benchmarking our system for releases as well as working with business to scale our system for the new TD merger."
+            },
+            {
+                "company": "Charles Schwab",
+                "role" : "Software Engineer Intern",
+                "duration" : "Jun 2018 - Aug 2018",
+                "techStack" : ["C#","SQL"],
+                "description" : "I worked on the document ingestion team which classifies documents that come into Schwab. During my time as an intern, I helped with the discussions of choosing our vendor through doing a POC. In that POC phase, I gathererd information on recognization rate, processesing rate, and usability of product for every vendor. "
+            }
+        ]
+    ,
+    "skills":{
+        "programming languages": ["JavaScript","HTML","CSS/SCSS","SQL", "Java", "C#", "C++","PowerShell", "Python"],
+        "framework":["React", "Angular","SpringBoot","Grails/Groovy","Cypress.js"],
+        "methodologies": ["Agile"]
+    }
+
+}

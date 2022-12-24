@@ -1,0 +1,16 @@
+{"data" : [
+    {
+        "tabName": "AgGrid",
+        "id": "tab1",
+        "component": "grid",
+        "extra": ""
+
+    },
+    {
+        "tabName": "other",
+        "id": "tab2",
+        "component": "grid",
+        "extra": ""
+
+    }
+]}
